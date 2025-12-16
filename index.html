@@ -1,0 +1,1260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Christeena Daniel - Frontend Web Developer">
+
+    <!-- ========== Page Title ========== -->
+    <title>Christeena Daniel - Frontend Web Developer</title>
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="assets/img/logo1.png" type="image/x-icon">
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link href="assets/css/validnavs.css" rel="stylesheet">
+    <link href="assets/css/helper.css" rel="stylesheet">
+    <link href="assets/css/unit-test.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- ========== End Stylesheet ========== -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.5/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+	<style>
+/* Hide overflow */
+.skill-style-one-items {
+    overflow: hidden;
+}
+
+/* Inner wrapper for animation */
+.skill-style-one-items-inner {
+    display: flex;
+    width: max-content;
+    animation: scrollSkills 15s linear infinite; /* Auto-scroll speed */
+}
+
+/* Pause scroll on hover */
+.skill-style-one-items:hover .skill-style-one-items-inner {
+    animation-play-state: paused;
+}
+
+/* Keep items from shrinking */
+.skill-style-one-item {
+    flex: 0 0 auto;
+}
+
+/* Keyframes for horizontal scroll */
+@keyframes scrollSkills {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Scroll left by half the total width */
+    }
+}
+
+.quick_contact a {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  right: 20px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 22px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+
+  /* Center icon using Flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Floating + diagonal animation */
+  animation: floatBounce 3s ease-in-out infinite;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* WhatsApp button */
+.qwhtsapp {
+  bottom: 70px;
+  background-color: #25d366;
+  animation-delay: 0s;
+}
+
+/* Call button */
+.qcall {
+  bottom: 130px;
+  background-color: #2196f3;
+  animation-delay: 0.5s; /* staggered start */
+}
+
+/* Hover effect */
+.quick_contact a:hover {
+  transform: scale(1.3) translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Keyframes for diagonal float + subtle bounce */
+@keyframes floatBounce {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(4px, -6px); }
+  50% { transform: translate(0, -10px); }
+  75% { transform: translate(-4px, -6px); }
+  100% { transform: translate(0, 0); }
+}
+
+	</style>
+	
+<!-- Font Awesome 4 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="bg-fixed bg-dark" style="background-image: url(assets/img/shape/3.jpg);">
+<div class="quick_contact">
+  <a href="https://api.whatsapp.com/send?phone=971501517491&text=hello" class="qwhtsapp" target="_blank">
+    <i class="fa fa-whatsapp quick_contact_icon"></i>
+  </a>
+  <a href="tel:+971501517491" class="qcall">
+    <i class="fa fa-phone quick_contact_icon"></i>
+  </a>
+</div>
+
+
+
+    <!-- Header 
+    ============================================= -->
+    <div class="preloader">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+
+        <div class="preloader-heading">
+            <div class="load-text">
+                <span>P</span>
+                <span>O</span>
+                <span>R</span>
+                <span>T</span>
+                <span>F</span>
+                <span>O</span>
+                <span>L</span>
+                <span>I</span>
+                <span>O</span>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Area End -->
+
+
+    <!-- Header 
+    ============================================= -->
+    <header>
+        <!-- Start Navigation -->
+        <nav class="navbar mobile-sidenav navbar-sticky navbar-default validnavs navbar-fixed">
+
+            <div class="container d-flex justify-content-between align-items-center">             
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index-2.html">
+                        <img src="assets/img/logo1.png" class="logo" alt="Logo">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+
+                    <img src="assets/img/logo.png" alt="Logo">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-times"></i>
+                    </button>
+                    
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                      
+						<li>
+                            <a class="smooth-menu" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="smooth-menu" href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a class="smooth-menu" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="smooth-menu" href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a class="smooth-menu" href="#portfolio">Works</a>
+                        </li>
+                       
+                        <li>
+                            <a class="smooth-menu" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+
+                <div class="nav-right">
+                    <div class="attr-right">
+                        <!-- Start Atribute Navigation -->
+                        <div class="attr-nav attr-box">
+                            <ul>
+                                <li class="button">
+                                    <a class="smooth-menu" href="tel:+971501517491">Let's Talk </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Atribute Navigation -->
+                    </div>
+                </div>
+            </div>   
+
+            <!-- Overlay screen for menu -->
+            <div class="overlay-screen"></div>
+            <!-- End Overlay screen for menu -->
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Header -->
+
+
+    <!-- Start Banner 
+    ============================================= -->
+    <div class="banner-style-one-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-4">
+                    <div class="banner-style-one-thumb">
+                        <img src="assets/img/about/13.png" alt="Image Not Found" style="border-radius: 15px;">
+                        <div class="author-social">
+                            <ul>
+								<li><a href="https://www.linkedin.com/in/christeena-daniel-1756ba250" target="_blank">linkedin</a></li>
+								
+								<li><a href="https://wa.me/971501517491" target="_blank">WhatsApp</a></li>
+
+								<li><a href="tel:971501517491">Call Us</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 pl-80 pl-md-15 pl-xs-15">
+                    <div class="banner-style-one-one">
+                        <div class="top">
+                            <div class="left">
+                                <p>
+								
+								I’m a passionate Web Developer & SEO Specialist based in Dubai. I specialize in building dynamic, responsive, and SEO-friendly websites that deliver great user experiences and drive results
+                                </p>
+                            </div>
+                            <!--<div class="right">
+                                <a href="projects.html" class="btn-circle">
+                                    <div class="button-content">
+                                        <span><img src="assets/img/icon/1.png" alt="Image Not Found"></span> My Portfoio
+                                    </div>
+                                </a>
+                            </div>-->
+                        </div>
+                        <div class="bottom">
+                            <h2>HI, I’M  CHRISTEENA DANIEL</h2>
+                            <h1>
+                                <span class="header-caption" id="page-top">
+                                    <!-- type headline start-->
+                                    <span class="cd-headline clip is-full-width">
+                                        <!-- ROTATING TEXT -->
+                                        <span class="cd-words-wrapper">
+                                            <b class="is-visible"> WordPress & Web Developer </b>
+                                            <b class="is-hidden"> Software Developer</b>
+                                            <b class="is-hidden"> Digital Marketing and SEO</b>
+                                        </span>
+                                    </span>
+                                    <!-- type headline end -->
+                                </span>
+                            </h1>
+                            <p>
+							With hands-on experience in WordPress development, PHP, MySQL, JavaScript, and front-end frameworks, I’ve created and optimized websites for businesses across e-commerce, digital media, and corporate sectors. My expertise also extends to digital marketing and SEO, where I design strategies that boost visibility, generate leads, and enhance brand presence
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- Start Services 
+    ============================================= -->
+    <div id="services" class="services-style-one-area default-padding">
+        <div class="container">
+            <div class="heading-left">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h4 class="sub-title">My Expertise</h4>
+                        <h2 class="title">My Quality Services</h2>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="service-style-one-box">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="services-style-one-items">
+                            <!-- Single Item -->
+                            <div class="services-style-one-item">
+                                <div class="icon">
+                                    <img src="assets/img/icon/4.png" alt="Image Not Found">
+                                </div>
+                                <div class="info">
+                                    <h2><a href="services-details.html">WEB DESIGN & DEVELOPMENT</a></h2>
+                                    <p>
+								Professional WordPress & Web Development tailored for businesses in UAE and India.
+								I create responsive, high-performance, and visually appealing websites that deliver seamless user experiences.
+								With strong expertise in WordPress, 
+								custom coding, and front-end development, I build websites that are fast, secure, and optimized for all devices.                                  
+									</p>
+                                    <ul class="list-style-one">
+                                        <li>WordPress Website Development</li>
+                                        <li>WooCommerce Store Setup</li>
+                                        <li>Custom Themes & Plugin Integration</li>
+                                        <li>PHP, MySQL, JavaScript & AJAX Features</li>
+                                        <li>Hosting, DNS & Server Setup</li>
+                                        <li>Website Migration, Maintenance & Bug Fixing</li>
+                                        <li>Website Migration, Maintenance & Bug Fixing</li>
+                                    </ul>
+                                </div>
+                                <div class="thumb">
+                                    <img src="assets/img/thumb/11.jpg" alt="Image Not Found">
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+                             <!-- Single Item -->
+                            <div class="services-style-one-item">
+                                <div class="icon">
+                                    <img src="assets/img/icon/3.png" alt="Image Not Found">
+                                </div>
+                                <div class="info">
+                                    <h2><a href="services-details.html">SEO & DIGITAL MARKETING</a></h2>
+                                    <p>
+									Boosting rankings, traffic, and conversions through strategic SEO & marketing.
+									I develop data-driven SEO strategies that improve visibility across search engines, especially focused on UAE market trends. 
+									My approach blends technical SEO, 
+									content strategy, and performance marketing to enhance online presence and generate high-quality leads.     
+									</p>
+                                    <ul class="list-style-one">
+                                        <li>On-Page & Off-Page SEO</li>
+                                        <li>Keyword Research & SEO Audits</li>
+                                        <li>High-converting Landing Pages</li>
+										<li>Content Strategy & Blog Optimization</li>
+										<li>Website Performance Optimization</li>
+										<li>Social Media Strategy & Engagement</li>
+
+                                    </ul>
+                                </div>
+                                <div class="thumb">
+                                    <img src="assets/img/thumb/22.jpg" alt="Image Not Found">
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+                             <!-- Single Item -->
+                            <div class="services-style-one-item">
+                                <div class="icon">
+                                    <img src="assets/img/icon/2.png" alt="Image Not Found">
+                                </div>
+                                <div class="info">
+                                    <h2><a href="services-details.html">GRAPHICS & DESIGN </a></h2>
+                                    <p>
+									
+									Creative visuals designed to elevate brand identity and user engagement.
+									I create clean, modern, and appealing graphics for websites, social media, and marketing campaigns.
+									 My designs combine aesthetic creativity with brand-focused strategy. 
+									 </p>
+                                    <ul class="list-style-one">
+
+                                        <li>Social Media Posts & Marketing Graphics</li>
+                                        <li>Website Banners & UI Elements</li>
+                                        <li>Canva & Adobe Photoshop Design</li>  
+										<li>Figma Wireframes & Layout Design</li>
+                                    </ul>
+                                </div>
+                                <div class="thumb">
+                                    <img src="assets/img/thumb/33.jpg" alt="Image Not Found">
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+							<div class="services-style-one-item">
+                                <div class="icon">
+                                    <img src="assets/img/icon/4.png" alt="Image Not Found">
+                                </div>
+                                <div class="info">
+                                    <h2><a href="services-details.html">CMS & PLATFORMS</a></h2>
+                                    <p>
+										Expert in building and managing CMS-based websites with full customization.
+										I deliver scalable, easy-to-manage, and SEO-friendly CMS solutions for businesses of all sizes. 
+										From scratch development to enhancement, 
+										I ensure smooth performance and long-term maintainability.  
+										</p>										
+										<ul class="list-style-one">
+                                        <li>WordPress Development & Customization</li>
+                                        <li>WooCommerce Setup & Product Management</li>
+                                        <li>Payment Gateway Integration (Stripe, PayPal)</li>
+                                        <li>Website Optimization & Speed Improvement</li>
+                                        <li>CMS Training & Client Support</li>
+                                        <li>Plugin Management, Security & Backups</li>
+                                    </ul>
+                                </div>
+                                <div class="thumb">
+                                    <img src="assets/img/thumb/44.jpg" alt="Image Not Found">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+
+    <!-- Start About 
+    ============================================= -->
+    <div id="about" class="about-style-one-area default-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-style-one-info">
+                        <div class="d-flex">
+                            <h4 class="sub-title">About Me</h4>
+                            <h2 class="title">Professional Web Developer & WordPress Specialist</h2>
+                        </div>
+                        <p>
+                             Hello, I'm <strong>Christeena Daniel</strong> — a professional Web Developer, WordPress Expert, and Digital Marketing 
+							 Specialist based in Dubai. I craft visually appealing, fully functional, and performance-driven websites that 
+							 help businesses grow online.  
+							<br><br>
+							    My expertise includes WordPress customization, WooCommerce development, PHP and JavaScript-based features, SEO optimization, security enhancements, and complete website management.  
+
+							<br><br>
+							I focus on building websites that are fast, secure, mobile-friendly, and optimized to drive real business growth.
+							</p>
+                        </p>
+                        <div class="bottom">
+                            <a href="tel:971501517491" class="btn-circle">
+                                <div class="button-content">
+                                    <span><img src="assets/img/icon/1.png" alt="Image Not Found"></span> Contact Me
+                                </div>
+                            </a>
+                        </div>
+                        <div class="thumb">
+                            <img src="assets/img/about/22.jpg" alt="Image Not Found">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="about-style-one-thumb pl-50">
+                        <div class="thumb">
+                            <img src="assets/img/about/photo.jpg" alt="Image Not Found">
+                        </div>
+                        <ul class="contact-info-style-one">
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="info">
+                                    <strong>Phone</strong>
+                                    <a href="tel:+97151517491">tel:+971 50 151 7491</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-file"></i>
+                                </div>
+                                <div class="info">
+                                    <strong>CV</strong>
+                                    <a href="Christeena_Daniel_Web_Developer_UAE.pdf" target="_blank">VIEW CV</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Start Skill 
+    ============================================= -->
+    <div id="skills" class="skill-area default-padding text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="site-heading text-center">
+                        <h4 class="sub-title">My Skills</h4>
+                        <h2 class="title">Development Skills</h2>
+                    </div>
+                </div>
+            </div>
+			 <div class="row">
+        <div class="col-lg-12">
+            <div class="skill-style-one-items">
+                <div class="skill-style-one-items-inner">
+
+                    <!-- Original skill items -->
+                    <div class="skill-style-one-item">
+                        <div class="icon">
+                            <img src="assets/img/icon/174881.png" alt="WORDPRESS">
+                            <h4>WORDPRESS</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="58"></div>
+                            </div>
+                            <h3>85%</h3>
+                        </div>
+                    </div>
+
+                    <div class="skill-style-one-item">
+                        <div class="icon">
+                            <img src="assets/img/icon/PHP-logo.svg.png" alt="PHP">
+                            <h4>PHP</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="58"></div>
+                            </div>
+                            <h3>85%</h3>
+                        </div>
+                    </div>
+
+                    <div class="skill-style-one-item">
+                        <div class="icon">
+                            <img src="assets/img/icon/free-html-logo-icon-svg-download-png-2284975.webp" alt="HTML">
+                            <h4>HTML</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="58"></div>
+                            </div>
+                            <h3>85%</h3>
+                        </div>
+                    </div>
+
+                    <div class="skill-style-one-item">
+                        <div class="icon">
+                            <img src="assets/img/icon/5968242.png" alt="CSS">
+                            <h4>CSS</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="58"></div>
+                            </div>
+                            <h3>80%</h3>
+                        </div>
+                    </div>
+
+                    <div class="skill-style-one-item">
+                        <div class="icon">
+                            <img src="assets/img/icon/9.png" alt="JAVASCRIPT">
+                            <h4>JAVASCRIPT</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="85"></div>
+                            </div>
+                            <h3>85%</h3>
+                        </div>
+                    </div>
+
+                    <div class="skill-style-one-item">
+                        <div class="icon">
+                            <img src="assets/img/icon/free-jquery-icon-svg-download-png-1175155.webp" alt="jQuery">
+                            <h4>jQuery</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="58"></div>
+                            </div>
+                            <h3>58%</h3>
+                        </div>
+                    </div>
+
+                    <div class="skill-style-one-item">
+                        <div class="icon">
+                            <img src="assets/img/icon/mysql-5-logo-png-transparent.png" alt="MySQL">
+                            <h4>MySQL</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="67"></div>
+                            </div>
+                            <h3>70%</h3>
+                        </div>
+                    </div>
+
+                    <div class="skill-style-one-item">
+                        <div class="icon">
+                            <img src="assets/img/icon/226060.webp" alt="WooCommerce">
+                            <h4>WooCommerce</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="67"></div>
+                            </div>
+                            <h3>70%</h3>
+                        </div>
+                    </div>
+
+                    <div class="skill-style-one-item">
+                        <div class="icon">
+                            <img src="assets/img/icon/ajax-icon-7.jpg" alt="AJAX">
+                            <h4>AJAX</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="67"></div>
+                            </div>
+                            <h3>70%</h3>
+                        </div>
+                    </div>
+
+                    <div class="skill-style-one-item">
+                        <div class="icon">
+                            <img src="assets/img/icon/django.png" alt="Django">
+                            <h4>Django</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="67"></div>
+                            </div>
+                            <h3>70%</h3>
+                        </div>
+                    </div>
+
+                    <div class="skill-style-one-item">
+                        <div class="icon">
+                            <img src="assets/img/icon/Bootstrap_logo.svg.png" alt="Bootstrap">
+                            <h4>Bootstrap</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="67"></div>
+                            </div>
+                            <h3>70%</h3>
+                        </div>
+                    </div>
+
+                    <div class="skill-style-one-item">
+                        <div class="icon">
+                            <img src="assets/img/icon/seo.png" alt="SEO">
+                            <h4>SEO</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="67"></div>
+                            </div>
+                            <h3>70%</h3>
+                        </div>
+                    </div>
+
+                    <!-- Duplicate items for seamless scroll -->
+                    <div class="skill-style-one-item">
+                        <div class="icon">
+                            <img src="assets/img/icon/174881.png" alt="WORDPRESS">
+                            <h4>WORDPRESS</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="58"></div>
+                            </div>
+                            <h3>85%</h3>
+                        </div>
+                    </div>
+
+                    <!-- Repeat duplicates as needed for smooth scroll -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+           
+        </div>
+    <div class="container mt-80 mt-xs-50">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="site-heading text-center">
+                <h2 class="title">Design Skills</h2>
+            </div>
+        </div>
+    </div>
+ <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="skill-style-one-items">
+                        <!-- Single Item -->
+                        <div class="skill-style-one-item">
+                            <div class="icon">
+                                <img src="assets/img/icon/canva-icon.webp" alt="Image Not Found">
+                                <h4>CANVA</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" data-width="80"></div>
+                                </div>
+                                <h3>90%</h3>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="skill-style-one-item">
+                            <div class="icon">
+                                <img src="assets/img/icon/6.png" alt="Image Not Found">
+                                <h4>FIGMA</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" data-width="75"></div>
+                                </div>
+                                <h3>75%</h3>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="skill-style-one-item">
+                            <div class="icon">
+                                <img src="assets/img/icon/7.png" alt="Image Not Found">
+                                <h4>PHOTOSHOP</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" data-width="68"></div>
+                                </div>
+                                <h3>68%</h3>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                       
+                        <!-- End Single Item -->
+                    </div>
+                </div>
+            </div>
+    
+</div>
+
+
+    </div>
+    <!-- End Skill -->
+
+    <!-- Start Brand Area 
+    ============================================= -->
+    <div class="brand-area relative overflow-hidden  text-light">
+        <div class="brand-style-one">
+            <div class="container-fill">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="brand-items">
+                            <div class="brand-conetnt">
+                                <div class="item">
+                                    <h2>Website</h2>
+                                </div>
+                                <div class="item">
+                                    <h2>Design</h2>
+                                </div>
+                                <div class="item">
+                                    <h2>SEO</h2>
+                                </div>
+								
+                                <div class="item">
+                                    <h2>Ecommerce</h2>
+                                </div>
+                            </div>
+                            <div class="brand-conetnt">
+                                <div class="item">
+                                    <h2>Website</h2>
+                                </div>
+                                <div class="item">
+                                    <h2>Design</h2>
+                                </div>
+                                <div class="item">
+                                    <h2>SEO</h2>
+                                </div> 
+                                <div class="item">
+                                    <h2>Ecommerce</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Bradn Area -->
+
+    <!-- Start Career 
+    ============================================= -->
+    <div class="career-area default-padding">
+        <div class="shape">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h2 class="title">My Educational and Career Journey</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <ul class="nav nav-tabs career-nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="tabs_1" data-bs-toggle="tab" data-bs-target="#tab_1" type="button" role="tab" aria-controls="tab_1" aria-selected="true">
+                                    My Experience
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="tabs_2" data-bs-toggle="tab" data-bs-target="#tab_2" type="button" role="tab" aria-controls="tab_2" aria-selected="false">
+                                    My Education
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="tab-content career-tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="tab_1" role="tabpanel" aria-labelledby="tabs_1">
+                            <ul class="timeline-style-one-items">
+                                <li>
+                                    <div class="left">
+                                        <h5>2023 – Present</h5>
+                                        <img src="assets/img/icon/hdlog_nuiuks.png" >
+                                    </div>
+                                    <div class="right">
+                                        <h3>WORDPRESS & WEB DEVELOPER</h3>
+                                        <h6>HD Digital Media Co. L.L.C</h6>
+                                        <p>
+                                            Develop and maintain dynamic WordPress and WooCommerce websites for multiple industries, 
+											customizing themes, integrating essential plugins, and building responsive, mobile-friendly 
+											layouts. Plan and execute SEO strategies, conduct keyword research, optimize website speed, performance, 
+											and security, integrate payment gateways like Stripe, Tabby, and PayPal, manage hosting, domains, and DNS configurations, 
+											develop custom PHP, JavaScript, and AJAX features, perform regular backups, updates, 
+											and maintenance, handle website migrations, and implement UAE market SEO trends and digital compliance standards.
+                                        </p>
+										
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="left">
+                                        <h5>2021 – 2023</h5>
+                                        <img src="assets/img/icon/logo2.png" >
+                                    </div>
+                                    <div class="right">
+                                        <h3>Software & Web Developer</h3>
+                                        <h6>NextgenPro Innovations & Edupark PVT LTD</h6>
+                                        <p>
+                                           Designed an e-commerce application and collaborated with the development team to create new applications. 
+										   Supported backend maintenance of client websites using HTML, CSS, JavaScript, PHP, MySQL, and XAMPP,
+										   optimized database performance, created web pages, integrated PHP into custom templates, and developed UI
+										   components. Worked on database design with stored procedures, indexes, views, triggers, and complex SQL 
+										   queries. Assisted the marketing team with blog creation, built 20+ landing pages, conducted market research,
+										   and planned and executed digital marketing and SEO strategies, including on-page and off-page optimization. 
+                                        </p>
+                                    </div>
+                                </li>
+                               
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="tab_2" role="tabpanel" aria-labelledby="tabs_2">
+                            <ul class="timeline-style-one-items">
+                                <li>
+                                    <div class="left">
+                                        <h5>2019</h5>
+                                    </div>
+                                    <div class="right">
+                                        <h3>Bachelor of Computer Application</h3>
+                                        <h6>Baker College for Women, Kerala, India</h6>
+                                       
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="left">
+                                        <h5>2016</h5>
+                                    </div>
+                                    <div class="right">
+                                        <h3>Plus Two</h3>
+                                        <h6>Mount Carmel Girls HSS, Kerala, India</h6>
+                                       
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="left">
+                                        <h5>2014</h5>
+                                    </div>
+                                    <div class="right">
+                                        <h3>SSLC</h3>
+                                        <h6>PEMHS Thiruvanchoor, Kerala, India</h6>
+                                        
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Career Area -->
+
+    <!-- Start Portfolio 
+    ============================================= -->
+    <div id="portfolio" class="portfolio-style-one-area default-padding bg-gray">
+        <div class="container">
+            <div class="heading-left">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h4 class="sub-title">Portfolio</h4>
+                        <h2 class="title">My Recent Works</h2>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt--60 mt-xs--30 gutter-xl">
+                <!-- Single Item -->
+                <div class="col-lg-6 item-center">
+                    <div class="portfolio-style-one wow fadeInUp">
+                        <div class="item">
+                            <div class="thumb-zoom">
+                                <img src="assets/img/portfolio/1.png" alt="Image Not Found">
+                            </div>
+                            <div class="content-info">
+                                <span>WordPress Website, 2025</span>
+                                <h2><a href="https://lumadgold.com/" target="_blank">Jewelry Shop Website</a></h2>
+                            </div>
+                            <div class="button">
+                                <a href="https://lumadgold.com/" target="_blank" class="pf-btn"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="col-lg-6 item-center">
+                    <div class="portfolio-style-one wow fadeInUp">
+                        <div class="item">
+                            <div class="thumb-zoom">
+                                <img src="assets/img/portfolio/2.png" alt="Image Not Found">
+                            </div>
+                            <div class="pf-item-info">
+                                <div class="content-info">
+                                    <span>WordPress Website, 2025</span>
+                                    <h2><a href="https://asterflower.ae/" target="_blank">Flower Shop Website </a></h2>
+                                </div>
+                                <div class="button">
+                                    <a href="https://asterflower.ae/" target="_blank"class="pf-btn"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="col-lg-6 item-center">
+                    <div class="portfolio-style-one wow fadeInUp">
+                        <div class="item">
+                            <div class="thumb-zoom">
+                                <img src="assets/img/portfolio/3.png" alt="Image Not Found">
+                            </div>
+                            <div class="pf-item-info">
+                                <div class="content-info">
+                                    <span>WordPress Website, 2025</span>
+                                    <h2><a href="https://coconcurrydubai.com/" target="_blank">Restaurant website</a></h2>
+                                </div>
+                                <div class="button">
+                                    <a href="https://coconcurrydubai.com/" target="_blank" class="pf-btn"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="col-lg-6 item-center">
+                    <div class="portfolio-style-one wow fadeInUp">
+                        <div class="item">
+                            <div class="thumb-zoom">
+                                <img src="assets/img/portfolio/4.png" alt="Image Not Found">
+                            </div>
+                            <div class="pf-item-info">
+                                <div class="content-info">
+                                    <span>E-commerce Website, 2025</span>
+                                    <h2><a href="https://almakhamaria.com/" target="_blank">Boutique website</a></h2>
+                                </div>
+                                <div class="button">
+                                    <a href="https://almakhamaria.com/" target="_blank" class="pf-btn"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-lg-6 item-center">
+                    <div class="portfolio-style-one wow fadeInUp">
+                        <div class="item">
+                            <div class="thumb-zoom">
+                                <img src="assets/img/portfolio/6.png" alt="Image Not Found">
+                            </div>
+                            <div class="pf-item-info">
+                                <div class="content-info">
+                                    <span>WordPress Website, 2025</span>
+                                    <h2><a href="https://theonecosmetics.ae/" target="_blank">Cosmetic website</a></h2>
+                                </div>
+                                <div class="button">
+                                    <a href="https://theonecosmetics.ae/" target="_blank" class="pf-btn"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-lg-6 item-center">
+                    <div class="portfolio-style-one wow fadeInUp">
+                        <div class="item">
+                            <div class="thumb-zoom">
+                                <img src="assets/img/portfolio/5.png" alt="Image Not Found">
+                            </div>
+                            <div class="pf-item-info">
+                                <div class="content-info">
+                                    <span>HTML Website, 2024</span>
+                                    <h2><a href="https://smartedupro.in/website/" target="_blank">IT Solutions website</a></h2>
+                                </div>
+                                <div class="button">
+                                    <a href="https://smartedupro.in/website/" target="_blank" class="pf-btn"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Area -->
+
+
+
+
+
+
+    <!-- Start Contact Us 
+    ============================================= -->
+    <div id="contact" class="contact-style-one-area overflow-hidden default-padding bg-gray">
+        <div class="container">
+            <div class="row align-center">
+
+                <div class="contact-stye-one col-lg-5 mb-md-50 mb-xs-40">
+                    <div class="contact-style-one-info">
+                        <ul class="list-style-two">
+                            <li class="wow fadeInUp">
+                                <div class="icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="content">
+                                    <h5>Phone</h5>
+                                    <a href="tel:+971501517491">+971 50 151 7491</a>
+                                </div>
+                            </li>
+                           
+                            <li class="wow fadeInUp" data-wow-delay="300ms">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="info">
+                                    <h5>Location</h5>
+                                    <p>
+                                        Burjman,Dubai
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="list-style-three">
+                            <li>Let’s Get Started</li>
+                            <li>Active Status - <span class="active">Acive</span></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="contact-stye-one col-lg-7 pl-60 pl-md-15 pl-xs-15">
+                    <div class="contact-form-style-one">
+                        <h2 class="heading">Let’s work together! </h2>
+                        <form action="" method="POST" class="contact-form contact-form">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input class="form-control" id="name" name="name" placeholder="Name" type="text">
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group comments">
+                                        <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Project *"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="submit" name="submit" id="submit">
+                                        <i class="fa fa-paper-plane"></i> Get in Touch
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Alert Message -->
+                            <div class="col-lg-12 alert-notification">
+                                <div id="message" class="alert-msg"></div>
+                            </div>
+                        </form>
+						<script>
+document.querySelector(".contact-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    // Get values
+    let name = document.getElementById("name").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let phone = document.getElementById("phone").value.trim();
+    let comments = document.getElementById("comments").value.trim();
+
+    // Simple Email Validation
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // UAE Phone Validation (Accepts: 05XXXXXXXX or 9715XXXXXXXX)
+    let phonePattern = /^(05\d{8}|9715\d{8})$/;
+
+    // Validation Checks
+    if (name === "") {
+        alert("Please enter your name");
+        return;
+    }
+
+    if (!emailPattern.test(email)) {
+        alert("Please enter a valid email address");
+        return;
+    }
+
+    if (!phonePattern.test(phone)) {
+        alert("Please enter a valid UAE phone number");
+        return;
+    }
+
+    if (comments === "") {
+        alert("Please enter your project details");
+        return;
+    }
+
+    // WhatsApp Message Format
+    let message = `New Contact Form Submission:%0A%0A` +
+                  `Name: ${name}%0A` +
+                  `Email: ${email}%0A` +
+                  `Phone: ${phone}%0A` +
+                  `Message: ${comments}`;
+
+    // WhatsApp Redirect
+    let whatsappURL = `https://wa.me/971501517491?text=${message}`;
+    window.open(whatsappURL, "_blank");
+});
+</script>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+
+
+    <!-- Start Footer 
+    ============================================= -->
+    <footer class="bg-dark text-light">
+        <div class="container">
+            <!--<div class="row">
+                <div class="col-lg-5">
+                    <div class="footer-item">
+                        <h2>Let’s Get Started</h2>
+                        <ul class="short-link">
+                            <li><a href="mailto:christeenadaniel1999@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email Me</a></li>
+                            <li><a href="https://wa.me/971501517491" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="footer-items">
+                        <!-- Single Item -->
+                       <!-- <div class="footer-item">
+                            <h4 class="widget-title">What I Do?</h4>
+                            <ul class="project-list">
+                                <li><a href="services-details.html">Web Development</a></li>
+                                <li><a href="services-details.html">Mobile App Design</a></li>
+                                <li><a href="services-details.html">Brand Identity</a></li>
+                                <li><a href="services-details.html">Graphics Design</a></li>
+                                <li><a href="services-details.html">Software Migration</a></li>
+                            </ul>
+                        </div>
+                        <!-- Single Item -->
+                        <!-- Single Item -->
+                       <!-- <div class="footer-item">
+                            <h5>2 Shelley Street, Sydney, NSW 2000, Australia</h5>
+                            <div class="bottom">
+                                <h4>Connect with me</h4>
+                                <ul class="social-list">
+                                    <li><a href="#">FB.</a></li>
+                                    <li><a href="#">IN.</a></li>
+                                    <li><a href="#">TW.</a></li>
+                                    <li><a href="#">BE.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Single Item -->
+                  <!--  </div>
+                </div>
+            </div>-->
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Copyright &copy; 2025. All Rights Reserved</p>
+                    </div>
+                    <div class="col-lg-6 text-end">
+                        <a id="scrollUp" href="#">Back To Top <i class="fas fa-arrow-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/progress-bar.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <script src="assets/js/count-to.js"></script>
+    <script src="assets/js/YTPlayer.min.js"></script>
+    <script src="assets/js/validnavs.js"></script>
+    <script src="assets/js/gsap.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
