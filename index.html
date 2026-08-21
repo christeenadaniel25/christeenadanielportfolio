@@ -33,6 +33,25 @@
 
 
 	<style>
+	.custom-experience-list {
+    display: block !important;
+    list-style: disc !important;
+    margin: 15px 0 !important;
+    padding: 0 0 0 20px !important;
+}
+
+.custom-experience-list li {
+    display: list-item !important;
+    list-style: disc !important;
+    margin: 0 0 8px 0 !important;
+    padding: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    position: static !important;
+    float: none !important;
+    border: none !important;
+    background: none !important;
+}
 /* Hide overflow */
 .skill-style-one-items {
     overflow: hidden;
@@ -123,7 +142,7 @@
 
 </head>
 
-<body class="bg-fixed bg-dark" style="background-image: url(assets/img/shape/3.jpg);">
+<body class="bg-fixed " style="background-image: url(assets/img/shape/3.jpg);">
 <div class="quick_contact">
   <a href="https://api.whatsapp.com/send?phone=971501517491&text=hello" class="qwhtsapp" target="_blank">
     <i class="fa fa-whatsapp quick_contact_icon"></i>
@@ -172,7 +191,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="index-2.html">
+                    <a class="navbar-brand" href="index.html">
                         <img src="assets/img/logo1.png" class="logo" alt="Logo">
                     </a>
                 </div>
@@ -181,7 +200,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
 
-                    <img src="assets/img/logo.png" alt="Logo">
+                     <a href="index.html"><img src="assets/img/logo1.png" alt="Logo"></a>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-times"></i>
                     </button>
@@ -191,19 +210,21 @@
 						<li>
                             <a class="smooth-menu" href="index.html">Home</a>
                         </li>
-                        <li>
-                            <a class="smooth-menu" href="#services">Services</a>
+						<li>
+                            <a class="smooth-menu" href="#experience">Experience</a>
                         </li>
-                        <li>
-                            <a class="smooth-menu" href="#about">About</a>
-                        </li>
-                        <li>
-                            <a class="smooth-menu" href="#skills">Skills</a>
-                        </li>
-                        <li>
+						<li>
                             <a class="smooth-menu" href="#portfolio">Works</a>
                         </li>
                        
+                        <li>
+                            <a class="smooth-menu" href="#services">Services</a>
+                        </li>
+                      
+                        <li>
+                            <a class="smooth-menu" href="#skills">Skills</a>
+                        </li>
+                     
                         <li>
                             <a class="smooth-menu" href="#contact">Contact Us</a>
                         </li>
@@ -241,14 +262,14 @@
             <div class="row align-items-center">
                 <div class="col-xl-4">
                     <div class="banner-style-one-thumb">
-                        <img src="assets/img/about/13.png" alt="Image Not Found" style="border-radius: 15px;">
+                        <img src="assets/img/about/131.webp" alt="Image Not Found" style="border-radius: 15px;">
                         <div class="author-social">
                             <ul>
-								<li><a href="https://www.linkedin.com/in/christeena-daniel-1756ba250" target="_blank">linkedin</a></li>
+								<li><a style="color:#fff;" href="https://www.linkedin.com/in/christeena-daniel-1756ba250" target="_blank">linkedin</a></li>
 								
-								<li><a href="https://wa.me/971501517491" target="_blank">WhatsApp</a></li>
+								<li><a style="color:#fff;" href="https://wa.me/971501517491" target="_blank">WhatsApp</a></li>
 
-								<li><a href="tel:971501517491">Call Us</a></li>
+								<li><a style="color:#fff;" href="tel:971501517491">Call Us</a></li>
 
                             </ul>
                         </div>
@@ -258,9 +279,10 @@
                     <div class="banner-style-one-one">
                         <div class="top">
                             <div class="left">
-                                <p>
+                                <p style="color:#000000">
 								
-								I’m a passionate Web Developer & SEO Specialist based in Dubai. I specialize in building dynamic, responsive, and SEO-friendly websites that deliver great user experiences and drive results
+								I’m a passionate Web Developer & SEO Specialist based in Dubai. I specialize in building dynamic, 
+								responsive, and SEO-friendly websites that deliver great user experiences and drive results
                                 </p>
                             </div>
                             <!--<div class="right">
@@ -281,7 +303,7 @@
                                         <span class="cd-words-wrapper">
                                             <b class="is-visible"> WordPress & Web Developer </b>
                                             <b class="is-hidden"> Software Developer</b>
-                                            <b class="is-hidden"> Digital Marketing and SEO</b>
+                                            <b class="is-hidden"> Digital Marketing and SEO Specialist</b>
                                         </span>
                                     </span>
                                     <!-- type headline end -->
@@ -298,7 +320,345 @@
     </div>
     <!-- End Banner -->
 
-    <!-- Start Services 
+  
+
+    <!-- Start About 
+    ============================================= -->
+    <!--  <div id="about" class="about-style-one-area default-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-style-one-info">
+                        <div class="d-flex">
+                            <h4 class="sub-title">About Me</h4>
+                            <h2 class="title">Professional Web Developer & WordPress Specialist</h2>
+                        </div>
+                        <p>
+                             Hello, I'm <strong>Christeena Daniel</strong> — a professional Web Developer, WordPress Expert, and Digital Marketing 
+							 Specialist based in Dubai. I craft visually appealing, fully functional, and performance-driven websites that 
+							 help businesses grow online.  
+							<br><br>
+							    My expertise includes WordPress customization, WooCommerce development, PHP and JavaScript-based features, SEO optimization, security enhancements, and complete website management.  
+
+							<br><br>
+							I focus on building websites that are fast, secure, mobile-friendly, and optimized to drive real business growth.
+							</p>
+                        </p>
+                        <div class="bottom">
+                            <a href="tel:971501517491" class="btn-circle">
+                                <div class="button-content">
+                                    <span><img src="assets/img/icon/1.png" alt="Image Not Found"></span> Contact Me
+                                </div>
+                            </a>
+                        </div>
+                        <div class="thumb">
+                            <img src="assets/img/about/22.jpg" alt="Image Not Found">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="about-style-one-thumb pl-50">
+                        <div class="thumb">
+                            <img src="assets/img/about/photo.jpg" alt="Image Not Found">
+                        </div>
+                        <ul class="contact-info-style-one">
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="info">
+                                    <strong>Phone</strong>
+                                    <a href="tel:+97151517491">tel:+971 50 151 7491</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-file"></i>
+                                </div>
+                                <div class="info">
+                                    <strong>CV</strong>
+                                    <a href="Christeena_Daniel_Web_Developer_UAE.pdf" target="_blank">VIEW CV</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- End About -->
+	
+	
+	<!-- Start Career 
+    ============================================= -->
+    <div id="experience" class="career-area default-padding">
+        <div class="shape">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h2 class="title">My Career and Educational Journey</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <ul class="nav nav-tabs career-nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="tabs_1" data-bs-toggle="tab" data-bs-target="#tab_1" type="button" role="tab" aria-controls="tab_1" aria-selected="true">
+                                    My Experience
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="tabs_2" data-bs-toggle="tab" data-bs-target="#tab_2" type="button" role="tab" aria-controls="tab_2" aria-selected="false">
+                                    My Education
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="tab-content career-tab-content" id="myTabContent">
+                       <div class="tab-pane fade show active" id="tab_1" role="tabpanel" aria-labelledby="tabs_1"> 
+    <ul class="timeline-style-one-items"> 
+        <li> 
+            <div class="left"> 
+                <h5>2023 – Present</h5> 
+                <img src="assets/img/icon/hdlog_nuiuks.png">
+            </div> 
+            <div class="right"> 
+                <h3>WORDPRESS & WEB DEVELOPER</h3> 
+                <h6>HD Digital Media Co. L.L.C</h6> 
+           
+                   <ul class="custom-experience-list">
+    <li>Develop and maintain dynamic WordPress and WooCommerce websites for multiple industries.</li>
+    <li>Customize WordPress themes, integrate plugins, and build responsive, mobile-friendly layouts.</li>
+    <li>Develop custom features using PHP, JavaScript, AJAX, HTML, CSS, and WordPress.</li>
+    <li>Integrate payment gateways including Stripe, Tabby, and PayPal.</li>
+    <li>Plan and execute SEO strategies, including keyword research and on-page optimization.</li>
+    <li>Optimize website speed, performance, security, and overall user experience.</li>
+    <li>Manage hosting, domains, DNS configurations, backups, updates, and website maintenance.</li>
+    <li>Perform website migrations and troubleshoot technical WordPress issues.</li>
+    <li>Implement UAE-focused SEO strategies and digital compliance standards.</li>
+</ul>
+                
+            </div> 
+        </li> 
+
+        <li> 
+            <div class="left"> 
+                <h5>2021 – 2023</h5> 
+                <img src="assets/img/icon/logo2.png">
+            </div> 
+            <div class="right"> 
+                <h3>SOFTWARE & WEB DEVELOPER</h3> 
+                <h6>NextgenPro Innovations & Edupark PVT LTD</h6> 
+                
+                  <ul class="custom-experience-list">
+    <li>Designed and developed e-commerce applications and collaborated with the development team on web projects.</li>
+    <li>Developed and maintained client websites using HTML, CSS, JavaScript, PHP, MySQL, and XAMPP.</li>
+    <li>Created responsive web pages, custom templates, and reusable UI components.</li>
+    <li>Integrated PHP functionality into custom website templates and applications.</li>
+    <li>Designed and optimized databases using stored procedures, indexes, views, and triggers.</li>
+    <li>Developed and optimized complex SQL queries for improved database performance.</li>
+    <li>Created 20+ landing pages for marketing and business campaigns.</li>
+    <li>Supported content creation, market research, digital marketing, and SEO activities.</li>
+    <li>Implemented on-page and off-page SEO strategies to improve website visibility.</li>
+</ul>
+                
+            </div> 
+        </li> 
+    </ul> 
+</div>
+                        <div class="tab-pane fade" id="tab_2" role="tabpanel" aria-labelledby="tabs_2">
+                            <ul class="timeline-style-one-items">
+                                <li>
+                                    <div class="left">
+                                        <h5>2019</h5>
+                                    </div>
+                                    <div class="right">
+                                        <h3>Bachelor of Computer Application</h3>
+                                        <h6>Baker College for Women, Kerala, India</h6>
+                                       
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="left">
+                                        <h5>2016</h5>
+                                    </div>
+                                    <div class="right">
+                                        <h3>Plus Two</h3>
+                                        <h6>Mount Carmel Girls HSS, Kerala, India</h6>
+                                       
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="left">
+                                        <h5>2014</h5>
+                                    </div>
+                                    <div class="right">
+                                        <h3>SSLC</h3>
+                                        <h6>PEMHS Thiruvanchoor, Kerala, India</h6>
+                                        
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Career Area -->
+
+	
+	 <!-- Start Portfolio 
+    ============================================= -->
+    <div id="portfolio" class="portfolio-style-one-area default-padding bg-gray">
+        <div class="container">
+            <div class="heading-left">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h4 class="sub-title">Portfolio</h4>
+                        <h2 class="title">My Recent Works</h2>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt--60 mt-xs--30 gutter-xl">
+                <!-- Single Item -->
+                <div class="col-lg-6 item-center">
+                    <div class="portfolio-style-one wow fadeInUp">
+                        <div class="item">
+                            <div class="thumb-zoom">
+                                <img src="assets/img/portfolio/cafe.png" alt="Image Not Found">
+                            </div>
+                            <div class="content-info">
+                                <span>WordPress Website, 2025</span>
+                                <h2><a href="https://alfalakcafedubai.com/" target="_blank">Cafe Website</a></h2>
+                            </div>
+                            <div class="button">
+                                <a href="https://alfalakcafedubai.com/" target="_blank" class="pf-btn"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+				 <!-- Single Item -->
+                <div class="col-lg-6 item-center">
+                    <div class="portfolio-style-one wow fadeInUp">
+                        <div class="item">
+                            <div class="thumb-zoom">
+                                <img src="assets/img/portfolio/34.png" alt="Image Not Found">
+                            </div>
+                            <div class="pf-item-info">
+                                <div class="content-info">
+                                    <span>E-commerce Website, 2025</span>
+                                    <h2><a href="https://asterflower.ae/" target="_blank">Aster Flower Website </a></h2>
+                                </div>
+                                <div class="button">
+                                    <a href="https://asterflower.ae/" target="_blank"class="pf-btn"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="col-lg-6 item-center">
+                    <div class="portfolio-style-one wow fadeInUp">
+                        <div class="item">
+                            <div class="thumb-zoom">
+                                <img src="assets/img/portfolio/22.png" alt="Image Not Found">
+                            </div>
+                            <div class="pf-item-info">
+                                <div class="content-info">
+                                    <span>WordPress Website, 2025</span>
+                                    <h2><a href="https://lumadgold.com/" target="_blank">Lumad Gold Website </a></h2>
+                                </div>
+                                <div class="button">
+                                    <a href="https://lumadgold.com/" target="_blank"class="pf-btn"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+				 <!-- Single Item -->
+                <div class="col-lg-6 item-center">
+                    <div class="portfolio-style-one wow fadeInUp">
+                        <div class="item">
+                            <div class="thumb-zoom">
+                                <img src="assets/img/portfolio/35.png" alt="Image Not Found">
+                            </div>
+                            <div class="pf-item-info">
+                                <div class="content-info">
+                                    <span>E-commerce Website, 2025</span>
+                                    <h2><a href="https://babylongentssalon.com/" target="_blank">Babylongents Salon Website </a></h2>
+                                </div>
+                                <div class="button">
+                                    <a href="https://babylongentssalon.com/" target="_blank"class="pf-btn"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="col-lg-6 item-center">
+                    <div class="portfolio-style-one wow fadeInUp">
+                        <div class="item">
+                            <div class="thumb-zoom">
+                                <img src="assets/img/portfolio/33.png" alt="Image Not Found">
+                            </div>
+                            <div class="pf-item-info">
+                                <div class="content-info">
+                                    <span>WordPress Website, 2025</span>
+                                    <h2><a href="https://www.itacsafety.com/" target="_blank">ITAC Safety website</a></h2>
+                                </div>
+                                <div class="button">
+                                    <a href="https://www.itacsafety.com/" target="_blank" class="pf-btn"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+               
+				<div class="col-lg-6 item-center">
+                    <div class="portfolio-style-one wow fadeInUp">
+                        <div class="item">
+                            <div class="thumb-zoom">
+                                <img src="assets/img/portfolio/5.png" alt="Image Not Found">
+                            </div>
+                            <div class="pf-item-info">
+                                <div class="content-info">
+                                    <span>HTML Website, 2024</span>
+                                    <h2><a href="https://smartedupro.in/website/" target="_blank">IT Solutions website</a></h2>
+                                </div>
+                                <div class="button">
+                                    <a href="https://smartedupro.in/website/" target="_blank" class="pf-btn"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Area -->
+	
+	
+	
+	
+	  <!-- Start Services 
     ============================================= -->
     <div id="services" class="services-style-one-area default-padding">
         <div class="container">
@@ -433,71 +793,9 @@
     </div>
     <!-- End Services -->
 
-    <!-- Start About 
-    ============================================= -->
-    <div id="about" class="about-style-one-area default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="about-style-one-info">
-                        <div class="d-flex">
-                            <h4 class="sub-title">About Me</h4>
-                            <h2 class="title">Professional Web Developer & WordPress Specialist</h2>
-                        </div>
-                        <p>
-                             Hello, I'm <strong>Christeena Daniel</strong> — a professional Web Developer, WordPress Expert, and Digital Marketing 
-							 Specialist based in Dubai. I craft visually appealing, fully functional, and performance-driven websites that 
-							 help businesses grow online.  
-							<br><br>
-							    My expertise includes WordPress customization, WooCommerce development, PHP and JavaScript-based features, SEO optimization, security enhancements, and complete website management.  
 
-							<br><br>
-							I focus on building websites that are fast, secure, mobile-friendly, and optimized to drive real business growth.
-							</p>
-                        </p>
-                        <div class="bottom">
-                            <a href="tel:971501517491" class="btn-circle">
-                                <div class="button-content">
-                                    <span><img src="assets/img/icon/1.png" alt="Image Not Found"></span> Contact Me
-                                </div>
-                            </a>
-                        </div>
-                        <div class="thumb">
-                            <img src="assets/img/about/22.jpg" alt="Image Not Found">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 offset-lg-1">
-                    <div class="about-style-one-thumb pl-50">
-                        <div class="thumb">
-                            <img src="assets/img/about/photo.jpg" alt="Image Not Found">
-                        </div>
-                        <ul class="contact-info-style-one">
-                            <li>
-                                <div class="icon">
-                                    <i class="fas fa-phone"></i>
-                                </div>
-                                <div class="info">
-                                    <strong>Phone</strong>
-                                    <a href="tel:+97151517491">tel:+971 50 151 7491</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <i class="fas fa-file"></i>
-                                </div>
-                                <div class="info">
-                                    <strong>CV</strong>
-                                    <a href="Christeena_Daniel_Web_Developer_UAE.pdf" target="_blank">VIEW CV</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End About -->
+
+
 
     <!-- Start Skill 
     ============================================= -->
@@ -775,222 +1073,8 @@
     </div>
     <!-- End Bradn Area -->
 
-    <!-- Start Career 
-    ============================================= -->
-    <div class="career-area default-padding">
-        <div class="shape">
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2 class="title">My Educational and Career Journey</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <ul class="nav nav-tabs career-nav-tabs" id="myTab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="tabs_1" data-bs-toggle="tab" data-bs-target="#tab_1" type="button" role="tab" aria-controls="tab_1" aria-selected="true">
-                                    My Experience
-                                </button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="tabs_2" data-bs-toggle="tab" data-bs-target="#tab_2" type="button" role="tab" aria-controls="tab_2" aria-selected="false">
-                                    My Education
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
     
-                    <div class="tab-content career-tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="tab_1" role="tabpanel" aria-labelledby="tabs_1">
-                            <ul class="timeline-style-one-items">
-                                <li>
-                                    <div class="left">
-                                        <h5>2023 – Present</h5>
-                                        <img src="assets/img/icon/hdlog_nuiuks.png" >
-                                    </div>
-                                    <div class="right">
-                                        <h3>WORDPRESS & WEB DEVELOPER</h3>
-                                        <h6>HD Digital Media Co. L.L.C</h6>
-                                        <p>
-                                            Develop and maintain dynamic WordPress and WooCommerce websites for multiple industries, 
-											customizing themes, integrating essential plugins, and building responsive, mobile-friendly 
-											layouts. Plan and execute SEO strategies, conduct keyword research, optimize website speed, performance, 
-											and security, integrate payment gateways like Stripe, Tabby, and PayPal, manage hosting, domains, and DNS configurations, 
-											develop custom PHP, JavaScript, and AJAX features, perform regular backups, updates, 
-											and maintenance, handle website migrations, and implement UAE market SEO trends and digital compliance standards.
-                                        </p>
-										
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="left">
-                                        <h5>2021 – 2023</h5>
-                                        <img src="assets/img/icon/logo2.png" >
-                                    </div>
-                                    <div class="right">
-                                        <h3>Software & Web Developer</h3>
-                                        <h6>NextgenPro Innovations & Edupark PVT LTD</h6>
-                                        <p>
-                                           Designed an e-commerce application and collaborated with the development team to create new applications. 
-										   Supported backend maintenance of client websites using HTML, CSS, JavaScript, PHP, MySQL, and XAMPP,
-										   optimized database performance, created web pages, integrated PHP into custom templates, and developed UI
-										   components. Worked on database design with stored procedures, indexes, views, triggers, and complex SQL 
-										   queries. Assisted the marketing team with blog creation, built 20+ landing pages, conducted market research,
-										   and planned and executed digital marketing and SEO strategies, including on-page and off-page optimization. 
-                                        </p>
-                                    </div>
-                                </li>
-                               
-                                
-                            </ul>
-                        </div>
-                        <div class="tab-pane fade" id="tab_2" role="tabpanel" aria-labelledby="tabs_2">
-                            <ul class="timeline-style-one-items">
-                                <li>
-                                    <div class="left">
-                                        <h5>2019</h5>
-                                    </div>
-                                    <div class="right">
-                                        <h3>Bachelor of Computer Application</h3>
-                                        <h6>Baker College for Women, Kerala, India</h6>
-                                       
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="left">
-                                        <h5>2016</h5>
-                                    </div>
-                                    <div class="right">
-                                        <h3>Plus Two</h3>
-                                        <h6>Mount Carmel Girls HSS, Kerala, India</h6>
-                                       
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="left">
-                                        <h5>2014</h5>
-                                    </div>
-                                    <div class="right">
-                                        <h3>SSLC</h3>
-                                        <h6>PEMHS Thiruvanchoor, Kerala, India</h6>
-                                        
-                                    </div>
-                                </li>
-                               
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Career Area -->
-
-    <!-- Start Portfolio 
-    ============================================= -->
-    <div id="portfolio" class="portfolio-style-one-area default-padding bg-gray">
-        <div class="container">
-            <div class="heading-left">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h4 class="sub-title">Portfolio</h4>
-                        <h2 class="title">My Recent Works</h2>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row mt--60 mt-xs--30 gutter-xl">
-                <!-- Single Item -->
-                <div class="col-lg-6 item-center">
-                    <div class="portfolio-style-one wow fadeInUp">
-                        <div class="item">
-                            <div class="thumb-zoom">
-                                <img src="assets/img/portfolio/cafe.png" alt="Image Not Found">
-                            </div>
-                            <div class="content-info">
-                                <span>WordPress Website, 2025</span>
-                                <h2><a href="https://alfalakcafedubai.com/" target="_blank">Cafe Website</a></h2>
-                            </div>
-                            <div class="button">
-                                <a href="https://alfalakcafedubai.com/" target="_blank" class="pf-btn"><i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Item -->
-                <!-- Single Item -->
-                <div class="col-lg-6 item-center">
-                    <div class="portfolio-style-one wow fadeInUp">
-                        <div class="item">
-                            <div class="thumb-zoom">
-                                <img src="assets/img/portfolio/22.png" alt="Image Not Found">
-                            </div>
-                            <div class="pf-item-info">
-                                <div class="content-info">
-                                    <span>WordPress Website, 2025</span>
-                                    <h2><a href="https://lumadgold.com/" target="_blank">Lumad Gold Website </a></h2>
-                                </div>
-                                <div class="button">
-                                    <a href="https://lumadgold.com/" target="_blank"class="pf-btn"><i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Item -->
-                <!-- Single Item -->
-                <div class="col-lg-6 item-center">
-                    <div class="portfolio-style-one wow fadeInUp">
-                        <div class="item">
-                            <div class="thumb-zoom">
-                                <img src="assets/img/portfolio/33.png" alt="Image Not Found">
-                            </div>
-                            <div class="pf-item-info">
-                                <div class="content-info">
-                                    <span>WordPress Website, 2025</span>
-                                    <h2><a href="https://www.itacsafety.com/" target="_blank">ITAC Safety website</a></h2>
-                                </div>
-                                <div class="button">
-                                    <a href="https://www.itacsafety.com/" target="_blank" class="pf-btn"><i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Item -->
-               
-				<div class="col-lg-6 item-center">
-                    <div class="portfolio-style-one wow fadeInUp">
-                        <div class="item">
-                            <div class="thumb-zoom">
-                                <img src="assets/img/portfolio/5.png" alt="Image Not Found">
-                            </div>
-                            <div class="pf-item-info">
-                                <div class="content-info">
-                                    <span>HTML Website, 2024</span>
-                                    <h2><a href="https://smartedupro.in/website/" target="_blank">IT Solutions website</a></h2>
-                                </div>
-                                <div class="button">
-                                    <a href="https://smartedupro.in/website/" target="_blank" class="pf-btn"><i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Item -->
-            </div>
-        </div>
-    </div>
-    <!-- End Portfolio Area -->
+   
 
 
 
@@ -1030,7 +1114,7 @@
                         </ul>
                         <ul class="list-style-three">
                             <li>Let’s Get Started</li>
-                            <li>Active Status - <span class="active">Acive</span></li>
+                            <li>Active Status - <span class="active">Active</span></li>
                         </ul>
                     </div>
                 </div>
